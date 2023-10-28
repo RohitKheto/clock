@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-image: url("samantha-gades-BlIhVfXbi9s-unsplash.png");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+#clock{
+    background-image: url(clock2.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-color: white;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    border-radius: 50%;
+    border: 10px solid black;
+    box-shadow: 10px 15px 15px rgb(59, 59, 59), inset 10px 10px 15px rgb(81, 81, 81);
+    
+}
+#hour{
+    background-image: url(hourHand.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 250px;
+    width: 100px;
+    position: absolute;
+    top: 12%;
+    left: 37%;
+}
+#minute{
+    background-image: url(minute-hand.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 250px;
+    width: 100px;
+    position: absolute;
+    top: 12%;
+    left: 37%;
+}
+#second{
+    background-image: url(secondHand.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 250px;
+    width: 100px;
+    position: absolute;
+    top: 12%;
+    left: 37%;
+}
+#digital{
+    background-color: rgb(25, 23, 23);
+    display: inline-block;
+    color: gold;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    border: 5px solid gold;
+    top: 84%;
+    left:20%;
+    height:3rem;
+    width: 17rem;
+    box-shadow: 20px -15px 15px rgb(104, 103, 103);
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+

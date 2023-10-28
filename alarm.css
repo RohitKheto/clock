@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("alarmbg.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+#clock{
+    background-image: url(clock2.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-color: rgb(255, 255, 202);
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    border-radius: 50%;
+    border: 10px solid gold;
+    box-shadow: 5px 5px 15px gold,-5px 5px 15px gold,-5px -5px 15px gold,5px -5px 15px gold, inset 10px 10px 15px rgb(81, 81, 81);
+    
+}
+#hour{
+    background-image: url(hourHand.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 250px;
+    width: 100px;
+    position: absolute;
+    top: 12%;
+    left: 37%;
+}
+#minute{
+    background-image: url(minute-hand.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 250px;
+    width: 100px;
+    position: absolute;
+    top: 12%;
+    left: 37%;
+}
+#second{
+    background-image: url(secondHand.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 250px;
+    width: 100px;
+    position: absolute;
+    top: 12%;
+    left: 37%;
+}
+#setalarm{
+    background-color: black;
+    border: 2px solid gold;
+    box-shadow: 2px 2px 5px gold, -2px -2px 5px gold;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 0rem 3rem;
+    margin:3rem;
+    position: relative;
+    color:gold;
+    
+}
+#setalarm form{
+    display: flex;
+    width:200px;
+    flex-direction: column;
+}
+form input,select,option,button,label{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 30px;
+}
+form input{
+    text-align: center;
+}
+form select,option,button{
+   margin:1rem 0rem;
+   text-align: center;
+}
+h1{
+    margin:1rem;
+    padding-left: 1rem;
+    color: gold;
+    text-shadow: 5px 5px 15px yellow, -5px -5px 15px yellow;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#start{
+    color: rgb(98, 255, 0);
+    background-color: black;
+    text-shadow: 5px 5px 15px rgb(98, 255, 0), -5px -5px 15px rgb(98, 255, 0);
+    border: 2px solid rgb(98, 255, 0);
+    box-shadow: 2px 2px 5px rgb(98, 255, 0), -2px -2px 5px rgb(98, 255, 0);
+}
+
+#start:hover{
+    color:black;
+    background-color:rgb(98, 255, 0);
+    box-shadow: 2px 2px 5px rgb(98, 255, 0), -2px -2px 5px rgb(98, 255, 0), 3px 5px 10px rgb(98, 255, 0), 0px 0px 15px rgb(98, 255, 0);
+}
+#stop{
+    color: cyan;
+    background-color: black;
+    text-shadow: 5px 5px 15px cyan, -5px -5px 15px cyan;
+    border: 2px solid cyan;
+    box-shadow: 2px 2px 5px cyan, -2px -2px 5px cyan;
+}
+
+#stop:hover{
+    color:black;
+    background-color:cyan;
+    box-shadow: 2px 2px 5px cyan, -2px -2px 5px cyan, 3px 5px 10px cyan, 0px 0px 15px cyan;
+}
+
+
+
